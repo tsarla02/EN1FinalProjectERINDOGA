@@ -1,32 +1,83 @@
 <html>
-	<title>My Project (Remote)</title>
-	<head>
-		<script src="https://cdn.jsdelivr.net/gh/tuftsceeo/SPIKE-Web-Interface/cdn/ServiceDock.js" charset="utf-8"></script>
-	  <script src="../src/secret.js" charset="utf-8"></script>
-	  <script src="../src/cloud.js" charset="utf-8"></script>
-	  <link rel="stylesheet" href="../src/style.css" />
-	</head>
+<title>My Project (Remote)</title>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/gh/tuftsceeo/SPIKE-Web-Interface/cdn/ServiceDock.js" charset="utf-8"></script>
+    <script src="../src/secret.js" charset="utf-8"></script>
+    <script src="../src/cloud.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../src/style.css" />
+</head>
+
 <body>
 
-	<!-- SERVICE DOCK -->
-	<div id="servicedock">
-		<service-airtable id="service_airtable" tablename="myProject"></service-airtable>
-	</div>
+    <!-- SERVICE DOCK -->
+    <div id="servicedock">
+        <service-airtable id="service_airtable" tablename="myProject"></service-airtable>
+    </div>
+    <div class="general">
+        <h1 class="project_title">TIC-TAC-TOE</h1>
+<hr>
 
-  <h1>My Project (Remote Interface)</h1>
 
-	<!-- CREATE YOUR PROJECT HERE -->
+        <h3> Rules For Tic-Tac-Toe </h3>
+        <div class="game_rules">
+            <img class = "tictactoe" src="http://crystalclearfinances.com/wp-content/uploads/2016/06/3526260-Hand-drawn-tic-tac-toe-game-isolated-on-white-Stock-Photo.jpg" width="200" height="200">
+            <ol>1. The game is played on a grid that's 3 squares by 3 squares. </ol>
+            <ol>2. You are X, your friend is O. Players take turns putting their marks in empty squares.</ol>
+            <ol>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+            </ol>
+            <ol>4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a
+                tie. </ol>
+        
+        </div>
+    
 
-	<hr>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">
+                            <h1>3x3 Table</h1>
+                </thead>
 
-	<h2>My Project Quick Links:</h2>
-  <p>
-    <ul>
-      <li><a href="./myProject_remote.html" target=_blank>My Project Remote Page</a></li>
-      <li><a href="./myProject_local.html" target=_blank>My Project Local Page</a></li>
-    </ul>
-  </p>
-	<p><a href="../index.html">Return back to the main homepage.</a></p>
+                <tbody>
+                    <tr>
+                        <th><button id = "BOX" cloud_action='update' cloud_name='command'>BOX-1</button></th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-2</button> </th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-3</button> </th>
+                    </tr>
+                    <tr>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-4</button> </th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-5</button> </th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-6</button> </th>
+                    </tr>
+                    <tr>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-7</button> </th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-8</button> </th>
+                        <th><button cloud_action='update' cloud_name='command'>BOX-9</button> </th>
+                    </tr>
 
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- CREATE YOUR PROJECT HERE -->
+
+
+        <hr>
+        <h2>My Project Quick Links:</h2>
+        <p>
+        <ul>
+            <li><a href="./myProject_remote.html" target=_blank>My Project Remote Page</a></li>
+            <li><a href="./myProject_local.html" target=_blank>My Project Local Page</a></li>
+        </ul>
+        </p>
+        <p><a href="../index.html">Return back to the main homepage.</a></p>
+    </div>
 </body>
+
 </html>
