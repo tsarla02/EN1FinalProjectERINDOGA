@@ -1,18 +1,63 @@
 /* This is where you can make changes to the
 appearance of your different blocks.
-
+ 
 For info on CSS, copy and paste the link
 below into your browser!
-
+ 
 https://www.w3schools.com/css/default.asp
-
+ 
 */
-
+ 
 /* float the service dock to the right */
 #servicedock {
   float: right;
 }
+.general{
+    /* background-image: url('https://i.redd.it/vdhgv54ndnj21.png'); */
+}
+ 
+.body {
+    font-family: Arial;
+}
+ 
+button{
+    background-color: rgb(43, 226, 150);
 
+}
+
+.tictactoe{
+    float:right;
+}
+   
+.game_directions{
+    text-align: left;
+ 
+}
+.project_title{
+    text-align: center;
+    background-color: rgb(43, 159, 226);
+}
+th {
+  border: 5px solid rgb(102, 204, 170);
+}
+ 
+table {
+    
+  text-align: center;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+}
+table h1{
+    font-size: 15; 
+}
+ 
+td {
+  border: 2px solid #8c6b48;
+  width: 300;
+}
+
+ 
 .buttonBlock{
     /*Give your button block some style!
     Add color, change the border, and
@@ -24,7 +69,7 @@ https://www.w3schools.com/css/default.asp
     padding-left: 40px;
     width:30%;
 }
-
+ 
 .sliderBlock{
     /*Give your slider block some style!
     Add color, change the border, and
@@ -36,7 +81,7 @@ https://www.w3schools.com/css/default.asp
     padding-left: 40px;
     width:30%;
 }
-
+ 
 .textBlock{
     /*Give your text block some style!
     Add color, change the border, and
@@ -48,7 +93,7 @@ https://www.w3schools.com/css/default.asp
     padding-left: 40px;
     width:30%;
 }
-
+ 
 /* homepage styling */
 .table_links {
   border: 1px solid black;
@@ -78,7 +123,7 @@ https://www.w3schools.com/css/default.asp
   height: 100px;
   background-color: lightyellow;
 }
-
+ 
 /* local styling for cloud interaction */
 .cloud_check {
   padding: 5px;
@@ -89,15 +134,15 @@ https://www.w3schools.com/css/default.asp
 }
 .cloud_table td {
   padding: 5px;
-	vertical-align: top;
+    vertical-align: top;
 }
 .cloud_active {
-	background-color: lightgreen;
+    background-color: lightgreen;
 }
 .cloud_inactive {
-	background-color: none;
+    background-color: none;
 }
-
+ 
 /* documentation styles */
 .documentation_image {
   border: 1px solid black;
@@ -106,3 +151,5 @@ https://www.w3schools.com/css/default.asp
   padding: 5px;
   background-color: lightyellow;
 }
+ 
+
