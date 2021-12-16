@@ -12,17 +12,13 @@ https://www.w3schools.com/css/default.asp
 #servicedock {
   float: right;
 }
+
 .general{
     /* background-image: url('https://i.redd.it/vdhgv54ndnj21.png'); */
 }
  
 .body {
     font-family: Arial;
-}
- 
-button{
-    background-color: rgb(43, 226, 150);
-
 }
 
 .tictactoe{
@@ -39,15 +35,87 @@ button{
 }
 th {
   border: 5px solid rgb(102, 204, 170);
+  width: 125px;
+  height: 125px;
 }
- 
+
+.text1{
+  text-align: center;
+  color: black;
+
+}
+
 table {
-    
+  table-layout: fixed; 
   text-align: center;
   margin: 20px auto;
-  width: 400px;
-  height: 400px;
+
 }
+
+#BOX1{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX2{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX3{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX4{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX5{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX6{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX7{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX8{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+#BOX9{
+    background-color: rgb(159, 241, 214);
+    border: 2px solid ;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+
 table h1{
     font-size: 15; 
 }
@@ -57,7 +125,6 @@ td {
   width: 300;
 }
 
- 
 .buttonBlock{
     /*Give your button block some style!
     Add color, change the border, and
