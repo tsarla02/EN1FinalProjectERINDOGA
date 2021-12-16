@@ -23,38 +23,91 @@
         <div class="game_rules">
             <img class = "tictactoe" src="http://crystalclearfinances.com/wp-content/uploads/2016/06/3526260-Hand-drawn-tic-tac-toe-game-isolated-on-white-Stock-Photo.jpg" width="200" height="200">
             <ol>1. The game is played on a grid that's 3 squares by 3 squares. </ol>
-            <ol>2. You are X, your friend is O. Players take turns putting their marks in empty squares.</ol>
+            <ol>2. You are X, your friend is O. Players take turns putting their marks in empty squares. </ol>
             <ol>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
             </ol>
             <ol>4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a
                 tie. </ol>
         
         </div>
-    
+
+    <h3>IMPORTANT:</h3>
+        <ol>1. Don't click on a button more than once! </ol>
+        <ol>2. Wait for the robot to place the block on the setup before clicking another button!</ol>
 
         <div class="container">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="3">
-                            <h1>3x3 Table</h1>
-                </thead>
+             <h1 class = "text1">3x3 Table</h1>
 
+            <table>
                 <tbody>
                     <tr>
-                        <th><button id = "BOX" cloud_action='update' cloud_name='command'>BOX-1</button></th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-2</button> </th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-3</button> </th>
+                        <th onclick="disappearbutton1()"> <button id="BOX1"  cloud_action='update' cloud_name='command'>BOX-1</button></th>
+                        <script>
+                            function disappearbutton1() {
+                                     document.getElementById("BOX1").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton2()"><button id="BOX2"  cloud_action='update' cloud_name='command'>BOX-2</button> </th>
+                        <script>
+                            function disappearbutton2() {
+                                     document.getElementById("BOX2").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton3()"><button id="BOX3"  cloud_action='update' cloud_name='command'>BOX-3</button> </th>
+                        <script>
+                            function disappearbutton3() {
+                                     document.getElementById("BOX3").style.display = "none";
+                            }
+                        </script>
+
                     </tr>
                     <tr>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-4</button> </th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-5</button> </th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-6</button> </th>
+                        <th onclick="disappearbutton4()"> <button id="BOX4" cloud_action='update' cloud_name='command'>BOX-4</button> </th>
+                        <script>
+                            function disappearbutton4() {
+                                     document.getElementById("BOX4").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton5()"><button id="BOX5" cloud_action='update' cloud_name='command'>BOX-5</button> </th>
+                        <script>
+                            function disappearbutton5() {
+                                     document.getElementById("BOX5").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton6()"> <button id="BOX6" cloud_action='update' cloud_name='command'>BOX-6</button> </th>
+                        <script>
+                            function disappearbutton6() {
+                                     document.getElementById("BOX6").style.display = "none";
+                            }
+                        </script>
+
                     </tr>
                     <tr>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-7</button> </th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-8</button> </th>
-                        <th><button cloud_action='update' cloud_name='command'>BOX-9</button> </th>
+                        <th onclick="disappearbutton7()"> <button id="BOX7" cloud_action='update' cloud_name='command'>BOX-7</button> </th>
+                        <script>
+                            function disappearbutton7() {
+                                     document.getElementById("BOX7").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton8()"> <button id="BOX8" cloud_action='update' cloud_name='command'>BOX-8</button> </th>
+                        <script>
+                            function disappearbutton8() {
+                                     document.getElementById("BOX8").style.display = "none";
+                            }
+                        </script>
+
+                        <th onclick="disappearbutton9()"> <button id="BOX9" cloud_action='update' cloud_name='command'>BOX-9</button> </th>
+                        <script>
+                            function disappearbutton9() {
+                                     document.getElementById("BOX9").style.display = "none";
+                            }
+                        </script>
+                        
                     </tr>
 
 
